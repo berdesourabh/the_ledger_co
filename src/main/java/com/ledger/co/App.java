@@ -9,10 +9,10 @@ import java.io.IOException;
 
 public class App {
     public static void main(String[] args) throws IOException {
-        //final String fileName = args[0];
+        final String fileName = args[0];
         BankingSystem bankingSystem = BankingSystem.getBankingSystemInstance();
         BankingOperationService bankingOperationService = new BankingOperationService(bankingSystem);
         CommandExecutorFactory commandExecutorFactory = new CommandExecutorFactory(bankingOperationService);
-        new FileInputReader(commandExecutorFactory,"input.txt").process();
+        new FileInputReader(commandExecutorFactory,fileName).process();
     }
 }
