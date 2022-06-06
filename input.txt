@@ -1,10 +1,27 @@
 LOAN IDIDI Dale 5000 1 6
-LOAN MBI Harry 10000 3 7
-LOAN UON Shelly 15000 2 9
 PAYMENT IDIDI Dale 1000 5
-PAYMENT MBI Harry 5000 10
-PAYMENT UON Shelly 7000 12
 BALANCE IDIDI Dale 3
 BALANCE IDIDI Dale 6
-BALANCE UON Shelly 12
-BALANCE MBI Harry 12
+
+
+5000 -> 12 months -> ROI 6
+
+5300
+
+Monthly EMI -> 442
+
+2210 -> 5 Months
+
+6th Repayment -> 1000 > 442(Monthly payment)
+
+Total payable -> 2090
+
+Remaining EMIs -> 6
+
+
+New tenure = 5 months
+
+4 installments -> 442
+
+5th install -> 322
+
