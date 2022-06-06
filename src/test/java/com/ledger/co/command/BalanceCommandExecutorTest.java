@@ -52,7 +52,7 @@ public class BalanceCommandExecutorTest {
     void testExecuteSuccess() {
         loanCommandExecutor.execute(new Command("LOAN BANK_NAME BORROWER_NAME 10000 5 4"));
         balanceCommandExecutor.execute(new Command("BALANCE BANK_NAME BORROWER_NAME 2"));
-        Assertions.assertEquals("BANK_NAME BORROWER_NAME 0.0 60\n", outContent.toString());
+        Assertions.assertEquals("BANK_NAME BORROWER_NAME 400 58\n", outContent.toString());
     }
 
     @Test

@@ -43,8 +43,8 @@ public class LoanCommandExecutorTest {
         LoanDetails details = loanDetails.get();
         Assertions.assertEquals("BANK_NAME", details.getBankName());
         Assertions.assertEquals("BORROWER_NAME", details.getBorrowerName());
-        Assertions.assertEquals(0, details.getPaidAmount());
-        Assertions.assertEquals(60, details.getRemainingInstallmentCount());
+        Assertions.assertEquals(400, details.getPaidAmount());
+        Assertions.assertEquals(58, details.getRemainingInstallmentCount());
     }
 
     @Test

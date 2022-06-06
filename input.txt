@@ -2,26 +2,3 @@ LOAN IDIDI Dale 5000 1 6
 PAYMENT IDIDI Dale 1000 5
 BALANCE IDIDI Dale 3
 BALANCE IDIDI Dale 6
-
-
-5000 -> 12 months -> ROI 6
-
-5300
-
-Monthly EMI -> 442
-
-2210 -> 5 Months
-
-6th Repayment -> 1000 > 442(Monthly payment)
-
-Total payable -> 2090
-
-Remaining EMIs -> 6
-
-
-New tenure = 5 months
-
-4 installments -> 442
-
-5th install -> 322
-
